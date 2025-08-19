@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "testing"
-        run: pwd
-      - name: "printing"
-        run: echo Ahmed
+      - name: "print"
+        run: ls
+
